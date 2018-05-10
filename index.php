@@ -13,7 +13,7 @@ $item = $decode_data->USD->last;
 
 $ar = [ $item ];
 
-$fp = fopen('/home/dok/projects/websites/file.csv', 'a+');
+$fp = fopen('mypath/file.csv', 'a+');
 
 fputcsv($fp, $ar);
 
